@@ -18,7 +18,7 @@ const App = () => {
     const updatedArr = itemData.filter((item)=>{
       return item.id!==id
     })
-    setitemData(updatedArr);
+    setitemData([...updatedArr]);
 
   }
 
